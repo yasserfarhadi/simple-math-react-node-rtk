@@ -1,0 +1,30 @@
+.button {
+  all: unset;
+  padding: 4px 30px;
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+  width: 100px;
+  text-align: center;
+  border: 2px solid #000;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background-color: #e8edeb;
+}
+.button:active {
+  border-color: #00684a;
+  color: #00684a;
+  background-color: #e3fcf7;
+}
+
+.button:disabled,
+.button:disabled:hover,
+.button:disabled:active {
+  // cursor: not-allowed;
+  color: lightgray;
+  border-color: lightgray;
+  background-color: transparent;
+}
